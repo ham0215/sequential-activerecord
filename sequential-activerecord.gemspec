@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'lib/sequential-activerecord/version'
+require_relative 'lib/sequential_activerecord/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'sequential-activerecord'
@@ -13,8 +13,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/ham0215/sequential-activerecord#readme'
   spec.license       = 'MIT'
   spec.required_ruby_version = '>= 2.7.2'
-
-  spec.metadata['allowed_push_host'] = 'TODO: Set to 'http://mygemserver.com''
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/ham0215/sequential-activerecord'
