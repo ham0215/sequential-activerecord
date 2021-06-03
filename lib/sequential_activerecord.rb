@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "hoge/version"
+require_relative "sequential-activerecord/version"
 
-module Hoge
+module SequentialActiveRecord
   class Error < StandardError; end
   # Your code goes here...
 end

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "hoge"
+require 'sequential-activerecord'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
